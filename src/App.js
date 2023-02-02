@@ -56,7 +56,7 @@ export default function App() {
         <div className="App">
             <div style={{ margin: '0 auto', marginTop: '5%', marginLeft:'5px' }}>
                 <label>Search:</label>
-                <input type="text" onChange={(event) => handleSearch(event)} placeholder="Enter userId or title"/>
+                <input type="text" onChange={(event) => handleSearch(event)} placeholder="Enter id"/>
             </div>
 
             <div style={{
